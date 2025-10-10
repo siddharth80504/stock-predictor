@@ -1,0 +1,546 @@
+
+[     UTC     ] Logs for stock-predictor-ecimbix4rkgayqxn2dxfve.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[15:35:18] 🚀 Starting up repository: 'stock-predictor', branch: 'main', main module: 'app.py'
+[15:35:18] 🐙 Cloning repository...
+[15:35:20] 🐙 Cloning into '/mount/src/stock-predictor'...
+
+[15:35:20] 🐙 Cloned repository!
+[15:35:20] 🐙 Pulling code changes from Github...
+[15:35:21] 📦 Processing dependencies...
+Check if streamlit is installed
+cat: /mount/admin/install_path: No such file or directory
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.8 environment at /home/adminuser/venv
+Resolved 37 packages in 392ms
+Prepared 37 packages in 1.49s
+Installed 37 packages in 112ms
+ + altair==5.5.0
+ + attrs==25.4.0
+ + blinker==1.9.0
+ + cachetools==6.2.0
+ + certifi==2025.10.5
+ + charset-normalizer==3.4.3
+ + click==8.3.0
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + idna==3.10
+ + jinja2==3.1.6[2025-10-10 15:35:23.210307] 
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.9.1
+ + markupsafe==3.0.3
+ + narwhals==2.7.0
+ + numpy==2.3.3
+ + packaging==25.0
+ + pandas==2.3.3[2025-10-10 15:35:23.210709] 
+ + pillow==11.3.0
+ + protobuf==6.32.1
+ + pyarrow==21.0.0
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ +[2025-10-10 15:35:23.211072]  referencing==0.36.2
+ + requests==2.32.5
+ + rpds-py==0.27.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + streamlit==1.50.0
+ + [2025-10-10 15:35:23.211269] tenacity==9.1.2
+ + toml==0.10.2
+ + tornado==6.5.2
+ + typing-extensions==4.15.0
+ +[2025-10-10 15:35:23.211375]  tzdata==2025.2
+ + urllib3==2.5.0
+ + watchdog==6.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:35:23] 📦 Processed dependencies!
+cat: /mount/admin/install_path: No such file or directory
+
+
+
+2025-10-10 15:35:30.134 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:21.005 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[15:40:21] ❗️ 
+2025-10-10 15:40:21.133 503 GET /script-health-check (127.0.0.1) 131.17ms
+2025-10-10 15:40:26.030 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:26.164 503 GET /script-health-check (127.0.0.1) 135.84ms
+2025-10-10 15:40:30.996 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:31.113 503 GET /script-health-check (127.0.0.1) 118.88ms
+2025-10-10 15:40:35.999 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:36.121 503 GET /script-health-check (127.0.0.1) 123.53ms
+2025-10-10 15:40:41.007 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:41.142 503 GET /script-health-check (127.0.0.1) 136.40ms
+2025-10-10 15:40:45.994 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:46.134 503 GET /script-health-check (127.0.0.1) 142.61ms
+2025-10-10 15:40:51.060 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:51.181 503 GET /script-health-check (127.0.0.1) 123.55ms
+2025-10-10 15:40:55.989 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:40:56.113 503 GET /script-health-check (127.0.0.1) 126.12ms
+2025-10-10 15:41:00.991 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:01.107 503 GET /script-health-check (127.0.0.1) 117.57ms
+2025-10-10 15:41:06.020 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:06.146 503 GET /script-health-check (127.0.0.1) 128.46ms
+2025-10-10 15:41:11.004 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:11.119 503 GET /script-health-check (127.0.0.1) 117.04ms
+2025-10-10 15:41:16.005 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:16.177 503 GET /script-health-check (127.0.0.1) 177.67ms
+2025-10-10 15:41:20.995 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:21.114 503 GET /script-health-check (127.0.0.1) 120.52ms
+2025-10-10 15:41:25.997 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:26.127 503 GET /script-health-check (127.0.0.1) 131.39ms
+2025-10-10 15:41:30.999 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:31.127 503 GET /script-health-check (127.0.0.1) 129.75ms
+2025-10-10 15:41:36.000 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:36.118 503 GET /script-health-check (127.0.0.1) 120.39ms
+2025-10-10 15:41:40.987 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:41.119 503 GET /script-health-check (127.0.0.1) 134.19ms
+2025-10-10 15:41:45.991 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:46.124 503 GET /script-health-check (127.0.0.1) 135.19ms
+2025-10-10 15:41:50.988 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:51.101 503 GET /script-health-check (127.0.0.1) 115.29ms
+2025-10-10 15:41:55.994 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:41:56.113 503 GET /script-health-check (127.0.0.1) 121.44ms
+2025-10-10 15:42:00.979 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:01.091 503 GET /script-health-check (127.0.0.1) 113.64ms
+2025-10-10 15:42:06.002 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:06.127 503 GET /script-health-check (127.0.0.1) 127.49ms
+2025-10-10 15:42:10.985 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:11.099 503 GET /script-health-check (127.0.0.1) 115.75ms
+2025-10-10 15:42:15.982 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:16.107 503 GET /script-health-check (127.0.0.1) 126.27ms
+2025-10-10 15:42:20.985 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:21.103 503 GET /script-health-check (127.0.0.1) 119.93ms
+2025-10-10 15:42:25.982 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:26.100 503 GET /script-health-check (127.0.0.1) 119.22ms
+2025-10-10 15:42:30.976 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:31.107 503 GET /script-health-check (127.0.0.1) 133.11ms
+2025-10-10 15:42:33.205 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:35.984 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+2025-10-10 15:42:36.096 503 GET /script-health-check (127.0.0.1) 113.31ms
+[15:42:40] 🔌 Disconnecting...
+[15:42:46] 🖥 Provisioning machine...
+[15:42:48] 🚀 Starting up repository: 'stock-predictor', branch: 'main', main module: 'app.py'
+[15:42:48] 🐙 Cloning repository...
+[15:42:50] 🐙 Cloning into '/mount/src/stock-predictor'...
+
+[15:42:50] 🐙 Cloned repository!
+[15:42:50] 🐙 Pulling code changes from Github...
+[15:42:51] 📦 Processing dependencies...
+[15:42:51] 🎛 Preparing system...
+[15:42:51] ⛓ Spinning up manager process...
+Check if streamlit is installed
+cat: [2025-10-10 15:42:51.402488] /mount/admin/install_path[2025-10-10 15:42:51.402989] : No such file or directory[2025-10-10 15:42:51.403403] 
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.8 environment at /home/adminuser/venv
+Resolved [2025-10-10 15:42:52.342792] 37 packages[2025-10-10 15:42:52.343339]  [2025-10-10 15:42:52.343705] in 692ms[2025-10-10 15:42:52.344120] 
+Prepared [2025-10-10 15:42:56.143121] 37 packages[2025-10-10 15:42:56.143525]  [2025-10-10 15:42:56.143891] in 3.79s[2025-10-10 15:42:56.144237] 
+Installed 37 packages in 236ms
+ + altair==5.5.0
+ + attrs==25.4.0
+ + blinker==1.9.0
+ + cachetools==6.2.0
+ + certifi==2025.10.5
+ + charset-normalizer==3.4.3
+ + click==8.3.0
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + idna==3.10
+ + jinja2==3.1.6
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.9.1
+ + markupsafe==3.0.3
+ + narwhals==2.7.0
+ + numpy==2.3.3
+ + packaging==25.0
+ + pandas==2.3.3
+ + pillow==11.3.0
+ + protobuf==6.32.1
+ + pyarrow==21.0.0
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + referencing==0.36.2
+ + requests==2.32.5
+ + rpds-py==0.27.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + streamlit==1.50.0
+ + tenacity==9.1.2
+ + toml==0.10.2
+ + tornado==6.5.2
+ + typing-extensions==4.15.0
+ + tzdata==2025.2
+ + urllib3==2.5.0
+ + watchdog==6.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:42:57] 📦 Processed dependencies!
+cat: [2025-10-10 15:42:57.778056] /mount/admin/install_path[2025-10-10 15:42:57.778520] : No such file or directory[2025-10-10 15:42:57.778929] 
+
+
+
+2025-10-10 15:43:04.691 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[15:45:39] 🔌 Disconnecting...
+[15:45:44] 🖥 Provisioning machine...
+[15:45:44] 🚀 Starting up repository: 'stock-predictor', branch: 'main', main module: 'app.py'
+[15:45:44] 🐙 Cloning repository...
+[15:45:46] 🐙 Cloning into '/mount/src/stock-predictor'...
+
+[15:45:46] 🐙 Cloned repository!
+[15:45:46] 🐙 Pulling code changes from Github...
+[15:45:47] 🎛 Preparing system...
+[15:45:47] ⛓ Spinning up manager process...
+[15:45:47] 📦 Processing dependencies...
+Check if streamlit is installed
+cat: /mount/admin/install_path: No such file or directory
+
+──────────────────────────────── Installing Streamlit ──────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.8 environment at /home/adminuser/venv
+Resolved 37 packages in 988ms
+Prepared 37 packages in 5.88s
+Installed [2025-10-10 15:45:54.475606] 37 packages[2025-10-10 15:45:54.478879]  [2025-10-10 15:45:54.479150] in 183ms[2025-10-10 15:45:54.479403] 
+ [2025-10-10 15:45:54.479901] +[2025-10-10 15:45:54.480131]  [2025-10-10 15:45:54.480368] altair[2025-10-10 15:45:54.480629] ==[2025-10-10 15:45:54.480860] 5.5.0[2025-10-10 15:45:54.481064] 
+ [2025-10-10 15:45:54.481523] +[2025-10-10 15:45:54.482192]  [2025-10-10 15:45:54.482901] attrs[2025-10-10 15:45:54.483174] ==[2025-10-10 15:45:54.483373] 25.4.0[2025-10-10 15:45:54.483578] 
+ [2025-10-10 15:45:54.483935] +[2025-10-10 15:45:54.484121]  [2025-10-10 15:45:54.484313] blinker[2025-10-10 15:45:54.484497] ==[2025-10-10 15:45:54.484702] 1.9.0
+ + cachetools==6.2.0
+ + certifi==2025.10.5[2025-10-10 15:45:54.484886] 
+ + charset-normalizer==3.4.3
+ + click==8.3.0
+ + gitdb==4.0.12
+ + gitpython==3.1.45
+ + idna==3.10
+ + jinja2==3.1.6
+ + jsonschema==4.25.1
+ + jsonschema-specifications==2025.9.1
+ + markupsafe==3.0.3
+ + narwhals==2.7.0
+ + numpy==2.3.3
+ + packaging==25.0
+ + pandas==[2025-10-10 15:45:54.485068] 2.3.3
+ + pillow==11.3.0
+ + protobuf==6.32.1
+ + pyarrow==21.0.0
+ + pydeck==0.9.1
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + referencing==0.36.2
+ + requests==2.32.5
+ + rpds-py==0.27.1
+ + six==1.17.0
+ + smmap==5.0.2
+ + streamlit==1.50.0
+ + tenacity==9.1.2
+ + toml==0.10.2
+ + tornado==6.5.2
+ + typing-extensions==4.15.0
+ [2025-10-10 15:45:54.485259] + tzdata==2025.2
+ + urllib3==2.5.0
+ + watchdog==6.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[15:45:55] 📦 Processed dependencies!
+cat: [2025-10-10 15:45:55.794596] /mount/admin/install_path[2025-10-10 15:45:55.794859] : No such file or directory[2025-10-10 15:45:55.795068] 
+
+
+
+2025-10-10 15:46:03.748 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 128, in exec_func_with_error_handling
+    result = func()
+  File "/home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 669, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mount/src/stock-predictor/app.py", line 2, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
