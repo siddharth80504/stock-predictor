@@ -1,11 +1,9 @@
-streamlit==1.26.0
-pandas==2.2.2
-numpy==1.25.3
+streamlit==1.50.0
+pandas==2.3.3
+numpy==1.26.5
 yfinance==0.2.33
-scikit-learn==1.2.2
-matplotlib==3.7.2
-nltk==3.8.1
-python-dateutil==2.8.2
-requests==2.31.0
+torch==2.8.0
+scikit-learn==1.3.1
+requests==2.32.5
 beautifulsoup4==4.12.2
-torch==2.2.2    # only if you actually need torch on render (heavy); consider removing for deployment)
+matplotlib==3.8.1
